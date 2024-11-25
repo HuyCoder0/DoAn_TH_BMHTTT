@@ -1,3 +1,12 @@
+create user nguyentruongduy_DOAN identified by 123;
+
+grant create session to nguyentruongduy_DOAN
+
+grant create table to nguyentruongduy_DOAN
+
+ALTER USER nguyentruongduy_DOAN quota 200M on users
+
+
 -- T?o b?ng SANPHAM
 CREATE TABLE SANPHAM (
     ID_SANPHAM NUMBER PRIMARY KEY,
@@ -105,10 +114,10 @@ SELECT * FROM CHITIETHOADON;
 SELECT * FROM HOADON;
 SELECT * FROM KHACHHANG;
 SELECT * FROM NHANVIEN;
-SELECT * FROM GiaHuy_DoAn.SANPHAM;
+SELECT * FROM SANPHAM;
 
-GRANT SELECT ON SANPHAM TO GiaHuy_DoAn;
-SELECT * FROM GiaHuy_DoAn.SANPHAM;
+GRANT SELECT ON NhanVien TO nguyentruongduy_DOAN;
+SELECT * FROM nguyentruongduy_DOAN.SANPHAM;
 INSERT INTO SANPHAM (ID_SANPHAM, TENSANPHAM, SOLUONG, GIA, KHUYENMAI, TRANGTHAI) VALUES(1, 'G?o th?m', 100, 25000.00, 5.00, 'Còn hàng');
 INSERT INTO SANPHAM (ID_SANPHAM, TENSANPHAM, SOLUONG, GIA, KHUYENMAI, TRANGTHAI) VALUES(2, '???ng tr?ng', 50, 20000.00, 10.00, 'Còn hàng');
 INSERT INTO SANPHAM (ID_SANPHAM, TENSANPHAM, SOLUONG, GIA, KHUYENMAI, TRANGTHAI) VALUES(3, 'Mu?i tinh', 200, 10000.00, 0.00, 'Còn hàng');
@@ -151,5 +160,92 @@ INSERT INTO CHITIETPHIEUNHAP (ID_CHITIETPHIEUNHAP, TENSANPHAM, SOLUONG, GIANHAP,
 INSERT INTO CHITIETPHIEUNHAP (ID_CHITIETPHIEUNHAP, TENSANPHAM, SOLUONG, GIANHAP, THANHTIEN, ID_PHIEUNHAP, ID_SANPHAM) VALUES (3, 'Mu?i tinh', 15, 9500.00, 142500.00, 3, 3);
 INSERT INTO CHITIETPHIEUNHAP (ID_CHITIETPHIEUNHAP, TENSANPHAM, SOLUONG, GIANHAP, THANHTIEN, ID_PHIEUNHAP, ID_SANPHAM) VALUES (4, 'D?u ?n', 5, 42000.00, 210000.00, 4, 4);
 INSERT INTO CHITIETPHIEUNHAP (ID_CHITIETPHIEUNHAP, TENSANPHAM, SOLUONG, GIANHAP, THANHTIEN, ID_PHIEUNHAP, ID_SANPHAM) VALUES (5, 'B?t mì', 25, 29000.00, 725000.00, 5, 5);
+
+CREATE TABLE ENCRYPTION_KEYS (
+    KEY_RAW RAW(32),
+    IV_RAW RAW(16)
+);
+
+-- T?o m?t c?p khóa
+BEGIN
+    INSERT INTO ENCRYPTION_KEYS 
+    VALUES (
+        UTL_RAW.CAST_TO_RAW('0123456789ABCDEF0123456789ABCDEF'),
+        UTL_RAW.CAST_TO_RAW('1234567890ABCDEF')
+    );
+    COMMIT;
+END;
+/
+    grant create procedure to nguyentruongduy_DOAN
+GRANT EXECUTE ON DBMS_CRYPTO TO nguyentruongduy_DOAN;
+GRANT CREATE SEQUENCE TO nguyentruongduy_DOAN;
+
+CREATE SEQUENCE SANPHAM_SEQ
+START WITH 1
+INCREMENT BY 1
+NOCACHE
+NOCYCLE;
+
+
+
+
+
+
+
+
+
+-- Hàm mã hóa s?a ??i
+CREATE OR REPLACE FUNCTION encrypt_data(input_text IN VARCHAR2) RETURN RAW AS
+    encrypted_text RAW(2000);
+    key_raw RAW(32);
+    iv_raw RAW(16);
+BEGIN
+    -- L?y giá tr? KEY_RAW và IV_RAW t? b?ng ENCRYPTION_KEYS
+    SELECT KEY_RAW, IV_RAW INTO key_raw, iv_raw FROM ENCRYPTION_KEYS;
+
+    -- Mã hóa d? li?u
+    encrypted_text := DBMS_CRYPTO.ENCRYPT(
+        src => UTL_RAW.CAST_TO_RAW(input_text),  -- D? li?u ph?i là RAW
+        typ => DBMS_CRYPTO.ENCRYPT_AES256 + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+        key => key_raw,
+        iv  => iv_raw
+    );
+    RETURN encrypted_text;
+END encrypt_data;
+/
+/
+
+-- Hàm gi?i mã s?a ??i
+
+CREATE OR REPLACE FUNCTION decrypt_data(encrypted_text IN RAW) RETURN VARCHAR2 AS
+    decrypted_text VARCHAR2(2000);
+    key_raw RAW(32);
+    iv_raw RAW(16);
+BEGIN
+    -- L?y giá tr? KEY_RAW và IV_RAW t? b?ng ENCRYPTION_KEYS
+    SELECT KEY_RAW, IV_RAW INTO key_raw, iv_raw FROM ENCRYPTION_KEYS;
+
+    -- Gi?i mã d? li?u
+    decrypted_text := UTL_RAW.CAST_TO_VARCHAR2(
+        DBMS_CRYPTO.DECRYPT(
+            src => encrypted_text,
+            typ => DBMS_CRYPTO.ENCRYPT_AES256 + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+            key => key_raw,
+            iv  => iv_raw
+        )
+    );
+    RETURN decrypted_text;
+END decrypt_data;
+/
+
+SELECT 
+    DBMS_CRYPTO.DECRYPT(TENSANPHAM, 'your_key') AS TENSANPHAM,
+    SOLUONG, 
+    GIA, 
+    KHUYENMAI,
+    DBMS_CRYPTO.DECRYPT(TRANGTHAI, 'your_key') AS TRANGTHAI
+FROM SANPHAM;
+
+
 
 

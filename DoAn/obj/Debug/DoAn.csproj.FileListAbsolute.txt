@@ -11,3 +11,16 @@ C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.csproj.Up2Date
 C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.exe
 C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.pdb
 C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.LoadData.resources
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\bin\Debug\DoAn.exe.config
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\bin\Debug\DoAn.exe
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\bin\Debug\DoAn.pdb
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.LoadData.resources
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.Login.resources
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.Properties.Resources.resources
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.csproj.GenerateResource.cache
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.csproj.Up2Date
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.exe
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.pdb
+D:\HUFI\HKCuoi\DoAnBM\DoAn_TH_BMHTTT\DoAn\obj\Debug\DoAn.SanPham.resources

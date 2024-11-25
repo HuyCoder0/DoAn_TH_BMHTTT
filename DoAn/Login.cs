@@ -68,7 +68,11 @@ namespace DoAn
                     MessageBox.Show("Đăng nhập thành công");
 
                     // Chuyển qua form LoadTable
-                    LoadData loadTableForm = new LoadData(user);
+                    //LoadData loadTableForm = new LoadData(user);
+                    //loadTableForm.Show();
+                    //this.Hide();
+
+                    SanPham loadTableForm = new SanPham();
                     loadTableForm.Show();
                     this.Hide();
                 }

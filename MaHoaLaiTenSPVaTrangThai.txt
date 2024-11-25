@@ -1,0 +1,79 @@
+//chức năng mã hoá khi thêm sản phẩm và load sản phẩm là giải mã Không cần thêm sản phẩm trc sẽ bị lỗi 
+
+
+CREATE TABLE ENCRYPTION_KEYS (
+    KEY_RAW RAW(32),
+    IV_RAW RAW(16)
+);
+
+-- Tạo một cặp khóa
+BEGIN
+    INSERT INTO ENCRYPTION_KEYS 
+    VALUES (
+        UTL_RAW.CAST_TO_RAW('0123456789ABCDEF0123456789ABCDEF'),
+        UTL_RAW.CAST_TO_RAW('1234567890ABCDEF')
+    );
+    COMMIT;
+END;
+/
+    grant create procedure to nguyentruongduy_DOAN
+GRANT EXECUTE ON DBMS_CRYPTO TO nguyentruongduy_DOAN;
+GRANT CREATE SEQUENCE TO nguyentruongduy_DOAN;
+
+CREATE SEQUENCE SANPHAM_SEQ
+START WITH 1
+INCREMENT BY 1
+NOCACHE
+NOCYCLE;
+
+
+
+
+
+
+
+
+
+-- Hàm mã hóa sửa đổi
+CREATE OR REPLACE FUNCTION encrypt_data(input_text IN VARCHAR2) RETURN RAW AS
+    encrypted_text RAW(2000);
+    key_raw RAW(32);
+    iv_raw RAW(16);
+BEGIN
+    -- Lấy giá trị KEY_RAW và IV_RAW từ bảng ENCRYPTION_KEYS
+    SELECT KEY_RAW, IV_RAW INTO key_raw, iv_raw FROM ENCRYPTION_KEYS;
+
+    -- Mã hóa dữ liệu
+    encrypted_text := DBMS_CRYPTO.ENCRYPT(
+        src => UTL_RAW.CAST_TO_RAW(input_text),  -- Dữ liệu phải là RAW
+        typ => DBMS_CRYPTO.ENCRYPT_AES256 + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+        key => key_raw,
+        iv  => iv_raw
+    );
+    RETURN encrypted_text;
+END encrypt_data;
+/
+/
+
+-- Hàm giải mã sửa đổi
+
+CREATE OR REPLACE FUNCTION decrypt_data(encrypted_text IN RAW) RETURN VARCHAR2 AS
+    decrypted_text VARCHAR2(2000);
+    key_raw RAW(32);
+    iv_raw RAW(16);
+BEGIN
+    -- Lấy giá trị KEY_RAW và IV_RAW từ bảng ENCRYPTION_KEYS
+    SELECT KEY_RAW, IV_RAW INTO key_raw, iv_raw FROM ENCRYPTION_KEYS;
+
+    -- Giải mã dữ liệu
+    decrypted_text := UTL_RAW.CAST_TO_VARCHAR2(
+        DBMS_CRYPTO.DECRYPT(
+            src => encrypted_text,
+            typ => DBMS_CRYPTO.ENCRYPT_AES256 + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+            key => key_raw,
+            iv  => iv_raw
+        )
+    );
+    RETURN decrypted_text;
+END decrypt_data;
+/
