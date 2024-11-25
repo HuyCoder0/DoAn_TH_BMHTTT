@@ -1,6 +1,6 @@
 ﻿namespace DoAn
 {
-    partial class SanPham
+    partial class MaHoaLaiSanPham
     {
         /// <summary>
         /// Required designer variable.
@@ -39,8 +39,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridViewSanPham = new System.Windows.Forms.DataGridView();
-            this.rdoMucUngDung = new System.Windows.Forms.RadioButton();
-            this.rdoMucCoSoDuLieu = new System.Windows.Forms.RadioButton();
             this.btnThemSanPham = new System.Windows.Forms.Button();
             this.btnLoadSanPham = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSanPham)).BeginInit();
@@ -149,28 +147,6 @@
             this.dataGridViewSanPham.Size = new System.Drawing.Size(960, 200);
             this.dataGridViewSanPham.TabIndex = 2;
             // 
-            // rdoMucUngDung
-            // 
-            this.rdoMucUngDung.AutoSize = true;
-            this.rdoMucUngDung.Location = new System.Drawing.Point(392, 280);
-            this.rdoMucUngDung.Name = "rdoMucUngDung";
-            this.rdoMucUngDung.Size = new System.Drawing.Size(142, 23);
-            this.rdoMucUngDung.TabIndex = 3;
-            this.rdoMucUngDung.TabStop = true;
-            this.rdoMucUngDung.Text = "Muc Ứng dụng";
-            this.rdoMucUngDung.UseVisualStyleBackColor = true;
-            // 
-            // rdoMucCoSoDuLieu
-            // 
-            this.rdoMucCoSoDuLieu.AutoSize = true;
-            this.rdoMucCoSoDuLieu.Location = new System.Drawing.Point(615, 280);
-            this.rdoMucCoSoDuLieu.Name = "rdoMucCoSoDuLieu";
-            this.rdoMucCoSoDuLieu.Size = new System.Drawing.Size(106, 23);
-            this.rdoMucCoSoDuLieu.TabIndex = 3;
-            this.rdoMucCoSoDuLieu.TabStop = true;
-            this.rdoMucCoSoDuLieu.Text = "Mức cơ sở";
-            this.rdoMucCoSoDuLieu.UseVisualStyleBackColor = true;
-            // 
             // btnThemSanPham
             // 
             this.btnThemSanPham.Location = new System.Drawing.Point(828, 255);
@@ -191,15 +167,13 @@
             this.btnLoadSanPham.UseVisualStyleBackColor = true;
             this.btnLoadSanPham.Click += new System.EventHandler(this.btnLoadSanPham_Click);
             // 
-            // SanPham
+            // MaHoaLaiSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1143, 600);
             this.Controls.Add(this.btnLoadSanPham);
             this.Controls.Add(this.btnThemSanPham);
-            this.Controls.Add(this.rdoMucCoSoDuLieu);
-            this.Controls.Add(this.rdoMucUngDung);
             this.Controls.Add(this.dataGridViewSanPham);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -213,7 +187,7 @@
             this.Controls.Add(this.txtTenSanPham);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "SanPham";
+            this.Name = "MaHoaLaiSanPham";
             this.Text = "SanPham";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSanPham)).EndInit();
             this.ResumeLayout(false);
@@ -233,8 +207,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridViewSanPham;
-        private System.Windows.Forms.RadioButton rdoMucUngDung;
-        private System.Windows.Forms.RadioButton rdoMucCoSoDuLieu;
         private System.Windows.Forms.Button btnThemSanPham;
         private System.Windows.Forms.Button btnLoadSanPham;
     }

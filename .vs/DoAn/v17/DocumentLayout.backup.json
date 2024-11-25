@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\mahoalaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\mahoalaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\mahoalaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\mahoalaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\mahoalaisanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\mahoalaisanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\loaddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,22 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|d:\\hufi\\hkcuoi\\doanbm\\doan_th_bmhttt\\doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,17 +58,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\SanPham.cs",
-              "RelativeDocumentMoniker": "DoAn\\SanPham.cs",
-              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\SanPham.cs",
-              "RelativeToolTip": "DoAn\\SanPham.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAYwGcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Program.cs",
+              "RelativeDocumentMoniker": "DoAn\\Program.cs",
+              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Program.cs",
+              "RelativeToolTip": "DoAn\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:29:38.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaHoaLaiSanPham.Designer.cs",
+              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.Designer.cs",
+              "RelativeDocumentMoniker": "DoAn\\MaHoaLaiSanPham.Designer.cs",
+              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.Designer.cs",
+              "RelativeToolTip": "DoAn\\MaHoaLaiSanPham.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:29:37.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaHoaLaiSanPham.cs",
+              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.cs",
+              "RelativeDocumentMoniker": "DoAn\\MaHoaLaiSanPham.cs",
+              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.cs",
+              "RelativeToolTip": "DoAn\\MaHoaLaiSanPham.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T07:30:18.801Z",
               "EditorCaption": ""
@@ -73,26 +107,26 @@
               "RelativeDocumentMoniker": "DoAn\\EncryptionHelper.cs",
               "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\EncryptionHelper.cs",
               "RelativeToolTip": "DoAn\\EncryptionHelper.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwF8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T07:29:22.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SanPham.cs [Design]",
-              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\SanPham.cs",
-              "RelativeDocumentMoniker": "DoAn\\SanPham.cs",
-              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\SanPham.cs [Design]",
-              "RelativeToolTip": "DoAn\\SanPham.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "MaHoaLaiSanPham.cs [Design]",
+              "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.cs",
+              "RelativeDocumentMoniker": "DoAn\\MaHoaLaiSanPham.cs",
+              "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\MaHoaLaiSanPham.cs [Design]",
+              "RelativeToolTip": "DoAn\\MaHoaLaiSanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T07:17:32.304Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "LoadData.Designer.cs",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\LoadData.Designer.cs",
               "RelativeDocumentMoniker": "DoAn\\LoadData.Designer.cs",
@@ -105,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Login.Designer.cs",
               "RelativeDocumentMoniker": "DoAn\\Login.Designer.cs",
@@ -124,14 +158,14 @@
               "RelativeDocumentMoniker": "DoAn\\LoadData.cs",
               "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\LoadData.cs",
               "RelativeToolTip": "DoAn\\LoadData.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T04:09:30.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LoadData.cs [Design]",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\LoadData.cs",
               "RelativeDocumentMoniker": "DoAn\\LoadData.cs",
@@ -143,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Login.cs",
               "RelativeDocumentMoniker": "DoAn\\Login.cs",
@@ -155,26 +189,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Login.cs",
               "RelativeDocumentMoniker": "DoAn\\Login.cs",
               "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Login.cs",
               "RelativeToolTip": "DoAn\\Login.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T03:32:13.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Database.cs",
               "DocumentMoniker": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Database.cs",
               "RelativeDocumentMoniker": "DoAn\\Database.cs",
               "ToolTip": "D:\\HUFI\\HKCuoi\\DoAnBM\\DoAn_TH_BMHTTT\\DoAn\\Database.cs",
               "RelativeToolTip": "DoAn\\Database.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwC0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T03:33:39.707Z",
               "EditorCaption": ""

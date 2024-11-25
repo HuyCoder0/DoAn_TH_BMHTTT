@@ -72,7 +72,7 @@ namespace DoAn
                     //loadTableForm.Show();
                     //this.Hide();
 
-                    SanPham loadTableForm = new SanPham();
+                    MaHoaLaiSanPham loadTableForm = new MaHoaLaiSanPham();
                     loadTableForm.Show();
                     this.Hide();
                 }
