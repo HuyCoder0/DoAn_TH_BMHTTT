@@ -1,0 +1,13 @@
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.Login.resources
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.Properties.Resources.resources
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\bin\Debug\DoAn.exe.config
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\bin\Debug\DoAn.exe
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\bin\Debug\DoAn.pdb
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.csproj.Up2Date
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.exe
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\Asus\Desktop\TH BMHTTT\DoAn\DoAn\obj\Debug\DoAn.LoadData.resources

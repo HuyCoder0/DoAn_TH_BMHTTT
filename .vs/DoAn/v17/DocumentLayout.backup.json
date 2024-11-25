@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|c:\\users\\asus\\desktop\\th bmhttt\\doan\\doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\loaddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\loaddata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76ACA44-6650-458B-B1D7-891656C3B729}|DoAn\\DoAn.csproj|solutionrelative:doan\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoadData.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.Designer.cs",
+              "RelativeDocumentMoniker": "DoAn\\LoadData.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.Designer.cs",
+              "RelativeToolTip": "DoAn\\LoadData.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:30:17.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "DoAn\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.Designer.cs",
+              "RelativeToolTip": "DoAn\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:30:08.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.cs",
+              "RelativeDocumentMoniker": "DoAn\\LoadData.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.cs",
+              "RelativeToolTip": "DoAn\\LoadData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:09:30.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.cs",
+              "RelativeDocumentMoniker": "DoAn\\LoadData.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\LoadData.cs [Design]",
+              "RelativeToolTip": "DoAn\\LoadData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:42:58.559Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.cs",
+              "RelativeDocumentMoniker": "DoAn\\Login.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.cs [Design]",
+              "RelativeToolTip": "DoAn\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:11:10.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.cs",
+              "RelativeDocumentMoniker": "DoAn\\Login.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Login.cs",
+              "RelativeToolTip": "DoAn\\Login.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAYwGwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:32:13.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Database.cs",
+              "RelativeDocumentMoniker": "DoAn\\Database.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TH BMHTTT\\DoAn\\DoAn\\Database.cs",
+              "RelativeToolTip": "DoAn\\Database.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:33:39.707Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
