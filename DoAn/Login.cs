@@ -67,14 +67,14 @@ namespace DoAn
                 {
                     MessageBox.Show("Đăng nhập thành công");
 
-                    // Chuyển qua form LoadTable
-                    //LoadData loadTableForm = new LoadData(user);
-                    //loadTableForm.Show();
-                    //this.Hide();
-
-                    MaHoaLaiSanPham loadTableForm = new MaHoaLaiSanPham();
+                    //Chuyển qua form LoadTable
+                    Home loadTableForm = new Home(user);
                     loadTableForm.Show();
                     this.Hide();
+
+                    //MaHoaLaiSanPham loadTableForm = new MaHoaLaiSanPham();
+                    //loadTableForm.Show();
+                    //this.Hide();
                 }
                 else
                 {

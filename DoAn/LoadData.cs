@@ -12,11 +12,12 @@ namespace DoAn
 {
     public partial class LoadData : Form
     {
-
+        private string username;
         // Cập nhật constructor để nhận username
         public LoadData(string username)
         {
             InitializeComponent();
+            this.username = username;
             label_user.Text = username; // Hiển thị username trên label
             LoadTable();
         }
@@ -47,6 +48,19 @@ namespace DoAn
             loginForm.Show();
 
             // Đóng form hiện tại
+            this.Close();
+        }
+
+        private void User_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Back_Click(object sender, EventArgs e)
+        {
+            Home Form = new Home(username);
+            Form.Show();
+
             this.Close();
         }
     }

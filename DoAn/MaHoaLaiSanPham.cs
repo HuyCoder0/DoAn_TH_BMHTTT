@@ -9,14 +9,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace DoAn
 {
     public partial class MaHoaLaiSanPham : Form
     {
-        public MaHoaLaiSanPham()
+        public string username;
+        public MaHoaLaiSanPham(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
 
         private void btnThemSanPham_Click(object sender, EventArgs e)
@@ -147,6 +150,21 @@ namespace DoAn
                 MessageBox.Show("Lỗi: " + ex.Message);
             }
 
+        }
+
+        private void btn_Back_Click(object sender, EventArgs e)
+        {
+            // Mở lại form Login
+            Home Form = new Home(username);
+            Form.Show();
+
+            // Đóng form hiện tại
+            this.Close();
+        }
+
+        private void btn_Close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

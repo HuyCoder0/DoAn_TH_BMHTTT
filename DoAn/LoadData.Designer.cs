@@ -34,6 +34,7 @@
             this.btn_Logout = new System.Windows.Forms.Button();
             this.User = new System.Windows.Forms.GroupBox();
             this.label_user = new System.Windows.Forms.Label();
+            this.btn_Back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.datagridview1)).BeginInit();
             this.User.SuspendLayout();
             this.SuspendLayout();
@@ -42,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 30);
+            this.label1.Location = new System.Drawing.Point(162, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 51);
             this.label1.TabIndex = 3;
@@ -87,6 +88,7 @@
             this.User.TabIndex = 39;
             this.User.TabStop = false;
             this.User.Text = "User";
+            this.User.Enter += new System.EventHandler(this.User_Enter);
             // 
             // label_user
             // 
@@ -96,11 +98,22 @@
             this.label_user.Size = new System.Drawing.Size(0, 25);
             this.label_user.TabIndex = 0;
             // 
+            // btn_Back
+            // 
+            this.btn_Back.Location = new System.Drawing.Point(39, 24);
+            this.btn_Back.Name = "btn_Back";
+            this.btn_Back.Size = new System.Drawing.Size(117, 64);
+            this.btn_Back.TabIndex = 40;
+            this.btn_Back.Text = "Back";
+            this.btn_Back.UseVisualStyleBackColor = true;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
+            // 
             // LoadData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1203, 476);
+            this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.User);
             this.Controls.Add(this.btn_Logout);
             this.Controls.Add(this.btn_Close);
@@ -124,5 +137,6 @@
         private System.Windows.Forms.Button btn_Logout;
         private System.Windows.Forms.GroupBox User;
         private System.Windows.Forms.Label label_user;
+        private System.Windows.Forms.Button btn_Back;
     }
 }

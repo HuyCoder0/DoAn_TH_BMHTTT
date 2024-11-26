@@ -77,5 +77,36 @@ namespace DoAn
                 return null;
             }
         }
+
+        public static DataTable ExecuteProcedure(string procedureName)
+        {
+            try
+            {
+                using (OracleCommand cmd = new OracleCommand(procedureName, Get_Connect()))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // Thêm tham số đầu ra kiểu SYS_REFCURSOR
+                    OracleParameter outputParam = new OracleParameter("result_cursor", OracleDbType.RefCursor)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(outputParam);
+
+                    // Thực thi stored procedure và lấy dữ liệu
+                    using (OracleDataAdapter adapter = new OracleDataAdapter(cmd))
+                    {
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        return dataTable;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thực thi stored procedure: " + ex.Message);
+                return null;
+            }
+        }
     }
 }
